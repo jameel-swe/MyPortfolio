@@ -9,37 +9,59 @@ const Skills = () => {
         <div className="py-2">
           <h4 className="text-base font-bold mb-2">Programming Languages</h4>
           <div className="flex gap-2 font-semibold text-base flex-wrap">
-            {renderSkill("HTML", "bg-custom-lime")}
-            {renderSkill("CSS/SCSS", "bg-custom-lime")}
-            {renderSkill("JavaScript", "bg-custom-lime")}
-            {renderSkill("TypeScript", "bg-custom-lime")}
+            {renderSkill("TypeScript", "bg-custom-testing")}
+            {renderSkill("JavaScript", "bg-custom-testing")}
+            {renderSkill("Python", "bg-custom-testing")}
+            {renderSkill("Kotlin", "bg-custom-testing")}
+            {renderSkill("Swift", "bg-custom-testing")}
+            {renderSkill("HTML/CSS", "bg-custom-testing")}
           </div>
         </div>
         <div className="py-2">
-          <h4 className="text-base font-bold mb-2">Technologies</h4>
+          <h4 className="text-base font-bold mb-2">Backend & Architecture</h4>
           <div className="flex gap-2 font-semibold text-base flex-wrap">
-            {renderSkill("Bootstrap", "bg-custom-purple")}
-            {renderSkill("Tailwind CSS", "bg-custom-purple")}
-            {renderSkill("Material UI", "bg-custom-purple")}
-            {renderSkill("React", "bg-custom-purple")}
-            {renderSkill("Redux", "bg-custom-purple")}
-            {renderSkill("React Query", "bg-custom-purple")}
-            {renderSkill("Nextjs", "bg-custom-purple")}
-            {renderSkill("Express", "bg-custom-purple")}
-            {renderSkill("MongoDB", "bg-custom-purple")}
+            {renderSkill("NestJS", "bg-custom-purple")}
+            {renderSkill("Node.js", "bg-custom-purple")}
+            {renderSkill("Express.js", "bg-custom-purple")}
+            {renderSkill("Kafka", "bg-custom-purple")}
+            {renderSkill("Temporal", "bg-custom-purple")}
+            {renderSkill("REST APIs", "bg-custom-purple")}
+            {renderSkill("Microservices", "bg-custom-purple")}
+          </div>
+        </div>
+        <div className="py-2">
+          <h4 className="text-base font-bold mb-2">Frontend & Mobile</h4>
+          <div className="flex gap-2 font-semibold text-base flex-wrap">
+            {renderSkill("React.js", "bg-custom-teal")}
+            {renderSkill("Next.js", "bg-custom-teal")}
+            {renderSkill("Zustand", "bg-custom-teal")}
+            {renderSkill("TanStack Query", "bg-custom-teal")}
+            {renderSkill("Tailwind CSS", "bg-custom-teal")}
+            {renderSkill("Material UI", "bg-custom-teal")}
+            {renderSkill("Expo (React Native Web)", "bg-custom-teal")}
+          </div>
+        </div>
+        <div className="py-2">
+          <h4 className="text-base font-bold mb-2">
+            Databases & Infrastructure
+          </h4>
+          <div className="flex gap-2 font-semibold text-base flex-wrap">
+            {renderSkill("PostgreSQL", "bg-custom-cloud")}
+            {renderSkill("MongoDB", "bg-custom-cloud")}
+            {renderSkill("AWS", "bg-custom-cloud")}
+            {renderSkill("Docker", "bg-custom-cloud")}
+            {renderSkill("CI/CD", "bg-custom-cloud")}
           </div>
         </div>
         <div className="py-2">
           <h4 className="text-base font-bold mb-2">Tools and Environments</h4>
           <div className="flex gap-2 font-semibold text-base flex-wrap">
-            {renderSkill("Nodejs", "bg-custom-teal")}
-            {renderSkill("VS Code", "bg-custom-teal")}
-            {renderSkill("Git", "bg-custom-teal")}
-            {renderSkill("GitHub", "bg-custom-teal")}
-            {renderSkill("Postman", "bg-custom-teal")}
-            {renderSkill("Vercel", "bg-custom-teal")}
-            {renderSkill("Netlify", "bg-custom-teal")}
-            {renderSkill("Render", "bg-custom-teal")}
+            {renderSkill("Git", "bg-custom-lime")}
+            {renderSkill("GitHub", "bg-custom-lime")}
+            {renderSkill("Postman", "bg-custom-lime")}
+            {renderSkill("Vercel", "bg-custom-lime")}
+            {renderSkill("Netlify", "bg-custom-lime")}
+            {renderSkill("Render", "bg-custom-lime")}
           </div>
         </div>
       </div>

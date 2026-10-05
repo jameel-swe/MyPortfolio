@@ -35,22 +35,18 @@ const Sidebar = () => {
           {renderLink(
             "https://github.com/jameel-webdev/MyPortfolio/files/15058586/JameelAhmed_Resume.pdf",
             <MdDescription />,
-            "Resume"
+            "Resume",
           )}
+          {renderLink("https://github.com/jameel-swe", <FaGithub />, "Github")}
           {renderLink(
-            "https://github.com/jameel-webdev",
-            <FaGithub />,
-            "Github"
-          )}
-          {renderLink(
-            "https://linkedin.com/in/jameel-webdev",
+            "https://linkedin.com/in/jameel-swe",
             <FaLinkedin />,
-            "LinkedIn"
+            "LinkedIn",
           )}
           {renderLink(
-            "mailto:jameel.webdev@gmail.com",
+            "mailto:jameel.swe@gmail.com",
             <BiLogoGmail />,
-            "Send Email"
+            "Send Email",
           )}
         </div>
       </div>

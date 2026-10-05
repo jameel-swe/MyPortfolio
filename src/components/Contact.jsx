@@ -10,21 +10,22 @@ const Contact = () => {
       </h3>
       <div className="hidden text-5xl md:block">&#8592;</div>
       <div className="my-4 md:hidden block">
-        {renderLink("https://github.com/jameel-webdev", <FaGithub />, "Github")}
+        {renderLink("https://github.com/jameel-swe", <FaGithub />, "Github")}
         {renderLink(
-          "https://linkedin.com/in/jameel-webdev",
+          "https://linkedin.com/in/jameel-swe",
           <FaLinkedin />,
-          "LinkedIn"
+          "LinkedIn",
         )}
         {renderLink(
-          "mailto:jameel.webdev@gmail.com",
+          "mailto:jameel.swe@gmail.com",
           <BiLogoGmail />,
-          "Send Email"
+          "Send Email",
         )}
       </div>
       <div className="text-justify md:text-base font-semibold py-2 my-2 text-zinc-600">
-        I&apos;m an Indian Full Stack Web Developer working on technologies like
-        React JS, Typescript, Next JS, Node JS, Express JS, etc.
+        I&apos;m a Full-Stack Software Engineer specializing in scalable backend
+        architectures and enterprise platforms using NestJS, TypeScript,
+        Next.js, and PostgreSQL.
       </div>
       <div className="text-justify md:text-base font-semibold py-2 my-2 text-zinc-600">
         Outside of work, I enjoy staying active by playing badminton and table

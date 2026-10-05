@@ -12,52 +12,52 @@ const About = () => {
         <h3 className="text-2xl font-bold text-custom-red">About Me</h3>
         <div className="font-semibold text-zinc-500 text-base leading-relaxed text-justify indent-paragraph pt-1">
           <p>
-            Hello, I&apos;m Jameel Ahmed. With a keen interest in technology,
-            I&apos;ve recently transitioned into web development, where I&apos;m
-            honing my skills in both front-end and back-end development.
-            I&apos;ve worked on various projects, from basic websites to more
-            complex web applications, always prioritizing clean code and
-            user-friendly design.
+            Hello, I&apos;m Jameel Ahmed. Coming from a background of running a
+            family business, I bring a unique, product-conscious perspective to
+            software engineering. Over the last couple of years, I&apos;ve
+            immersed myself in full-stack development, building everything from
+            responsive user interfaces to complex, event-driven enterprise
+            platforms, always prioritizing clean code and reliable architecture.
           </p>
           <p>
-            Now, I&apos;m eager to bring my enthusiasm for development and my
-            proficiency in technologies like React, MongoDB, Express.js, and
-            Node.js to a dynamic team. I am actively seeking opportunities to
-            contribute to innovative projects and collaborate with like-minded
-            professionals who value quality and performance. Joining a team that
-            supports continuous learning and growth will not only help me
-            achieve my professional goals but also add value through my
-            dedication and fresh perspectives.
+            Now, I&apos;m eager to bring my enthusiasm for solving real-world
+            problems and my proficiency in technologies like NestJS, TypeScript,
+            Next.js, and PostgreSQL to a dynamic team. I am actively seeking
+            opportunities to tackle challenging projects and collaborate with
+            like-minded professionals who value quality and scalable design.
+            Joining a team that supports continuous learning will not only help
+            me achieve my professional goals but also allow me to add immediate
+            value through my dedication and operational mindset.
           </p>
         </div>
         <div className="my-2 flex flex-wrap gap-4">
           {renderLink(
-            "mailto:jameel.webdev@gmail.com",
+            "mailto:jameel.swe@gmail.com",
             <BiLogoGmail />,
             "Send Email",
             "Gmail",
-            "testing"
+            "testing",
           )}
           {renderLink(
-            "https://github.com/jameel-webdev",
+            "https://github.com/jameel-swe",
             <FaGithub />,
             "Github",
             "Github",
-            "bg"
+            "bg",
           )}
           {renderLink(
-            "https://linkedin.com/in/jameel-webdev",
+            "https://linkedin.com/in/jameel-swe",
             <FaLinkedin />,
             "LinkedIn",
             "LinkedIn",
-            "cloud"
+            "cloud",
           )}
           {renderLink(
             "https://github.com/jameel-webdev/MyPortfolio/files/15058586/JameelAhmed_Resume.pdf",
             <MdDescription />,
             "Resume",
             "Resume",
-            "teal"
+            "teal",
           )}
         </div>
       </div>
