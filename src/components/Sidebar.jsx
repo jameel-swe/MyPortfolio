@@ -33,7 +33,7 @@ const Sidebar = () => {
         </p>
         <div className="pt-4 flex gap-4 pb-20 md:pb-24 flex-wrap">
           {renderLink(
-            "https://github.com/user-attachments/files/33052292/Jameel_Ahmed_Resume_FSE.pdf",
+            "https://github.com/user-attachments/files/33201730/Jameel_Ahmed_Resume_FSE.pdf",
             <MdDescription />,
             "Resume",
           )}

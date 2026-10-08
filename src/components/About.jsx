@@ -53,7 +53,7 @@ const About = () => {
             "cloud",
           )}
           {renderLink(
-            "https://github.com/user-attachments/files/33052292/Jameel_Ahmed_Resume_FSE.pdf",
+            "https://github.com/user-attachments/files/33201730/Jameel_Ahmed_Resume_FSE.pdf",
             <MdDescription />,
             "Resume",
             "Resume",
