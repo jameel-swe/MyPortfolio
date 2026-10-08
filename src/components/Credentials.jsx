@@ -66,6 +66,13 @@ const Credentials = () => {
           </div>
           <div>
             <CredCard
+              cardName="Professional Experience"
+              company="Software Engineer @ BootLabs"
+              years="July 2024 - Present"
+              description="I build scalable web applications and contribute to various client projects. My work focuses on developing robust backend systems and seamless frontend experiences."
+              color="bg-custom-testing"
+            />
+            <CredCard
               cardName="Professional Training"
               company="Zen Class Full Stack Developer Program"
               years="Feb 2023 - Dec 2023"
